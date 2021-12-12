@@ -1,3 +1,18 @@
+@media (max-width: 586px) {
+  .projects img {
+    display: none;
+  }
+
+  .container h2, p {
+    text-align: center;
+  }
+
+  .container a {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
 :root {
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-color: #6c63ff;
@@ -18,11 +33,13 @@ h3 {
 h1 {
   font-size: 96px;
   font-weight: bolder;
+  font-family: monospace;
 }
 
 h2 {
   font-size: 48px;
   font-weight: bold;
+  font-family: monospace;
 }
 
 h3,
@@ -33,6 +50,10 @@ h4 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.navbar-nav {
+  text-align: left;
 }
 
 .links {
